@@ -1,0 +1,1 @@
+GENEROS = ((" ", "---"), ("M", "Masculino"), ("F", "Femenino"), ("NB", "No binario"))

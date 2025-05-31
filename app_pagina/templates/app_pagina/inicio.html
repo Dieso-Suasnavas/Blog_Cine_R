@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIO</title>
-</head>
-<body>
-    <a class="navbar-brand fw-bolder " href="{% url 'index' %}"><h1>Cine R+</h1></a>
-    
-</body>
-</html>
+{% extends 'app_pagina/base.html' %}
+
+{% block contenido %}
+    <a class="navbar-brand fw-bolder " href="{% url 'novedades' %}"><h1>Novedades</h1></a>
+    <a class="navbar-brand fw-bolder " href="{% url 'acerca de' %}"><h1>Acerca de</h1></a>
+    <a class="navbar-brand fw-bolder " href="{% url 'formulario' %}"><h1>Perfil</h1></a>
+
+{% endblock contenido %}
